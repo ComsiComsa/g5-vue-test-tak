@@ -1,0 +1,38 @@
+.header {
+    background-color: var(--color-primary);
+    height: 48px;
+}
+
+.header__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo > img {
+    height: 20px;
+    width: 20px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .header__logo > img {
+        height: 22px;
+        width: 22px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .header__logo > img {
+        height: 24px;
+        width: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header__wrapper {
+        display: none;
+    }
+}
