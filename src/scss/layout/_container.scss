@@ -3,19 +3,19 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media only screen and (max-width: 1440px) {
+  @media only screen and (max-width: $breakpoint-xl) {
     max-width: $container-width-lg;
   }
 
-  @media only screen and (max-width: 1320px) {
+  @media only screen and (max-width: $breakpoint-lg) {
     max-width: $container-width-md;
   }
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: $breakpoint-md) {
     max-width: $container-width-sm;
   }
 
-  @media only screen and (max-width: 834px) {
+  @media only screen and (max-width: $breakpoint-sm) {
     max-width: $container-width-xs;
     padding: 0 16px !important;
   }

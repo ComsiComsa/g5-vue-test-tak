@@ -7,6 +7,11 @@
   position: relative;
 }
 
+html {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+}
+
 body {
   min-height: 100vh;
   color: $color-black;

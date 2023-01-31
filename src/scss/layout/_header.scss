@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: space-between;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: $breakpoint-xs) {
       display: none;
     }
   }
@@ -19,12 +19,12 @@
     height: 20px;
     width: 20px;
 
-    @media only screen and (max-width: 1440px) {
+    @media only screen and (max-width: $breakpoint-xl) {
       height: 22px;
       width: 22px;
     }
 
-    @media only screen and (max-width: 1280px) {
+    @media only screen and (max-width: $breakpoint-lg) {
       height: 24px;
       width: 24px;
     }
