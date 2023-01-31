@@ -70,34 +70,3 @@ export default {
   }
 };
 </script>
-
-<style>
-.swiper-button-prev,
-.swiper-button-next {
-  background-color: rgba(0, 0, 0, .5);
-  width: 40px;
-  height: 40px;
-  top: 45%;
-  color: var(--color-white);
-  border-radius: 50% 50%;
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  font-size: 24px;
-}
-
-.swiper__image {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-wrapper {
-  height: 90%;
-}
-
-.swiper-pagination {
-  margin-top: 16px;
-}
-</style>

@@ -1,0 +1,36 @@
+.badge {
+  position: absolute;
+  text-transform: uppercase;
+  padding: 4px 16px;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 14px;
+  color: $color-white;
+
+  &--red {
+    background-color: $color-red;
+  }
+
+  &--yellow {
+    background-color: $color-yellow;
+  }
+
+  &--purple {
+    background-color: $color-purple;
+  }
+
+  &--top-left {
+    left: 8px;
+    top: 8px;
+  }
+
+  &--top-middle {
+    top: 8px;
+    left: 40%;
+  }
+
+  &--bottom-right {
+    right: 8px;
+    bottom: 8px;
+  }
+}
